@@ -1,0 +1,170 @@
+.container-1 div{
+    border: 0px #ccc solid;
+    padding: 10px;
+ }
+
+ .container-1 {
+     display: flex;
+     background-color: white;
+     flex-direction:row;
+     align-items: center;
+     justify-self: flex-end;
+     margin: 24px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 78px;
+    height: auto;
+    flex:1;
+    order:1;
+}
+
+.headerTitle {
+    color:#a666fa;
+    font-size: 150%;
+}
+
+.filler {
+    justify-items: flex-end;
+}
+
+.bigbox-2 {
+    flex-grow: 4;
+    position: absolute;
+    align-items: center;
+} 
+
+.box1 {
+     justify-items: right;
+     flex-grow: 4;
+     position: absolute;
+     align-items: center;
+    
+ }
+
+.joinNowButton {
+     position: absolute;
+     background-color: #ffffff00;
+     border: 2px solid black;
+     color: black;
+     padding: 15px 32px;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     transition-duration: 0.4s;
+     border-radius: 5px;
+     margin-right: 90px;
+     margin-left: -24px;
+     text-align: center;
+     height: 50px;
+     display: flex;
+        justify-content: center;
+        flex: 2;
+        order: 2;
+ }
+
+.joinNowButton:hover {
+     background: rgb(163, 42, 255);
+     border: rgb(163, 42, 255);
+    color: white;
+ }
+
+ .mapButton {
+    position: absolute;
+    background-color: #ffffff00;
+    border: 1px solid grey;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    margin-right: 90px;
+    margin-left: -200px;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    display: flex;
+       justify-content: center;
+       flex: 2;
+       order: 2;
+ }
+
+ .mapButton:hover {
+     background-color: grey;
+     color: white;
+ }
+
+ .bigbox-2,
+ .box1,
+ .joinNowButton {  
+     right: 0;
+     width: 160px;
+     display: flex;
+        align-items: center;
+
+ }
+
+ .container-2 {
+     padding: 10px;
+     background-image: url(../assets/bg/bluepixelart.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     margin: 24px;
+     height: 800px;
+     display: flex;
+        flex-direction: column;
+ }
+
+ .title1 {
+     margin-top: 150px;
+     font-size: 650%;
+     color: #3cf0cc;
+     margin-bottom: 0;
+     display: flex;
+        justify-content: center;
+        order:1;
+ }
+
+ .desc1 {
+     font-size: 200%;
+     margin:0;
+     display: flex;
+        justify-content: center;
+        order: 2;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body {
+     background-image: url("../assets/bg/Spruce_Planks_\(texture\)_JE4_BE2.png");
+     background-repeat: repeat;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 300;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+   }

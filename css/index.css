@@ -1,0 +1,147 @@
+
+
+#heading {
+    display:flex;
+    align-items:center;
+        background-color: white;
+        height:80px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: auto;
+}
+
+div {
+    display: flex;
+    align-items: center;
+        height: 100px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width:auto;
+    }
+
+#headerTitle {
+    position: static;
+    padding-top: 25px;
+    margin-left: 74px;
+}
+
+#logo {
+    width: 45px;
+    float:left;
+    position: static;
+    padding-top: 18px;
+    padding-left: 24px;
+}
+
+#joinNowButton {
+    border: none;
+    color: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    top: auto;   
+    right: 0;
+    background-color: white;
+    color: black;
+    border: 2px solid #144ce6;   
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    margin: auto;
+}
+
+#joinNowButton:hover {
+    background-color: #144ce6;
+    color: white;
+}
+
+#join {
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+}
+
+#ip {
+    text-align: center;
+    position: static;
+    font-size: 400%;
+    color: black;
+    position: static;   
+    width: auto;
+}
+
+#ipbg {
+    background-color: white;
+    padding-bottom: 0.01px;
+    width: 90%;
+    border-radius: 20px;
+    align-self: center;
+    position: relative;
+    margin: auto;
+
+}
+
+#ipJoin {
+    background-image: url("../assets/MC/2021-03-22_23.56.17.png");
+    background-repeat: no-repeat;
+    display:flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    
+}
+
+body {
+    background-image: url("../assets/bg/brown-dirt-minecraft-pattern_thumb.jpg");
+    padding-bottom: 2%;
+    width: 100vh;
+    background-repeat: repeat;
+}
+
+#pageTop {
+    height: 700px;
+    background-image: url("../assets/bg/bluepixelart.png");
+    background-position: -50px;
+    background-size: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#title1 {
+    text-align: center;
+    padding-top: 10%;
+    width: auto;
+    position: relatives;
+    color: rgb(1, 252, 218);
+    font-size: 400%;
+}
+
+#description1 {
+    color: white;
+    text-align: center;
+    width: auto;
+    position: relative;
+    font-size: 200%;
+    padding-bottom: 50%;
+    float: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+   }
+
+   html {
+    scroll-behavior: smooth;
+  }
+
